@@ -56,15 +56,15 @@ let customFields = (room) => {
     switch (room.number) {
         case 'Мансарда 1-1':
             room.title = `Мансарда 1`;
-            room.image = `/img/rooms/m1.jpg`;
+            room.image = `img/rooms/m1.jpg`;
             break;
         case 'Мансарда 2-1':
             room.title = `Мансарда 2`;
-            room.image = `/img/rooms/m2.jpg`;
+            room.image = `img/rooms/m2.jpg`;
             break;
         default:
             room.title = `Квартира ${room.number}`;
-            room.image = `/img/rooms/${room.number}.jpg`;
+            room.image = `img/rooms/${room.number}.jpg`;
             break;
     }
 }
